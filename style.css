@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    background-color: bisque;
+}
+button{
+    margin: 10%;
+    margin-top: 15%;
+    margin-bottom: 25%;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: aqua;
+    font-weight: bolder;
+    font-size: large;
+    
+}
+div{
+    display: inline;
+}
+.buttons{
+    display: flex;
+
+}
+p{
+    display: inline;
+    color: darkblue;
+}
+.sco{
+   
+   height: 50px;
+   margin: 5%;
+   font-size: larger;
+   color: rgb(15, 15, 16);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+   
+
+
+}
+.scores{
+    border-radius: 4%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5%;
+    
+    
+}
+#reload{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 3%;
+    font-size: x-large;
+}
